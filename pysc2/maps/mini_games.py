@@ -22,7 +22,7 @@ from pysc2.maps import lib
 
 class MiniGame(lib.Map):
   directory = "mini_games"
-  download = "https://github.com/deepmind/pysc2#get-the-maps"
+  #download = "https://github.com/deepmind/pysc2#get-the-maps"
   players = 1
   score_index = 0
   game_steps_per_episode = 0
@@ -37,6 +37,7 @@ mini_games = [
     "DefeatZerglingsAndBanelings",  # 120s
     "FindAndDefeatZerglings",  # 180s
     "MoveToBeacon",  # 120s
+    "CollectMineralShardsGas_3Player",
 ]
 
 
